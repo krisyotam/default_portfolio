@@ -1,0 +1,59 @@
+/* Basic Styling for the BSOD page */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Retro terminal font */
+    background-color: #0000FF; /* Blue background */
+    color: #FFFFFF; /* White text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .bsod-container {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .error-message {
+    background-color: #0000FF;
+    padding: 20px;
+    font-size: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+  
+  .error-code {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .error-description {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .suggestion {
+    margin-top: 30px;
+  }
+  
+  a {
+    color: #FFFF00; /* Bright yellow for links */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,77 @@
+/* Basic Styling for the Terminal */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Retro terminal font */
+    background-color: #0000FF; /* Blue background for BSOD aesthetic */
+    color: #FFFFFF; /* White text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .terminal-container {
+    width: 80%;
+    max-width: 700px;
+    background-color: #000000;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .terminal-window {
+    background-color: #000000;
+    padding: 10px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .title-bar {
+    background-color: #000080;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 3px;
+  }
+  
+  .terminal {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .output {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .input-line {
+    display: flex;
+    align-items: center;
+  }
+  
+  .prompt {
+    color: #00FF00; /* Classic green prompt */
+    font-weight: bold;
+  }
+  
+  input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    caret-color: #00FF00; /* Green caret */
+    margin-left: 10px;
+  }
+  
